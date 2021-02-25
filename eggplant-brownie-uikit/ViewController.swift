@@ -9,9 +9,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
+    @IBAction func adicionar(){
+        let nome: String = "churros" // var nome: String > inferencia direta do tipo da váriavel - explicita
+        let felicidade = "5" //tipo da variável auto identificado pelo swift - implicita
+        print("comi: \(nome) e fiquei com felicidade: \(felicidade)")
     }
 
 
