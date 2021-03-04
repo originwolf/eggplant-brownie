@@ -24,6 +24,7 @@
 		CB34259625E78AE200D892B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB34259925E78AE200D892B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB34259B25E78AE200D892B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBD8325825F0CB16000AF74D /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = MyPlayground.playground; path = "../../Library/Autosave Information/MyPlayground.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		CB34258125E78AE100D892B1 = {
 			isa = PBXGroup;
 			children = (
+				CBD8325825F0CB16000AF74D /* MyPlayground.playground */,
 				CB34258C25E78AE100D892B1 /* eggplant-brownie-uikit */,
 				CB34258B25E78AE100D892B1 /* Products */,
 			);
