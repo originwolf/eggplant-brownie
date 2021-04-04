@@ -9,10 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
     
+    var tableViewController: RefeicoesTableViewController?
+    
     @IBOutlet var nomeTextField: UITextField?
     @IBOutlet var felicidadeTextField: UITextField?
 
-    @IBAction func adicionar(){
+    @IBAction func adicionar() {
         
         guard let nomeDaRefeicao = nomeTextField?.text else {
             return
@@ -26,17 +28,9 @@ class ViewController: UIViewController {
         
         print("Comi \(refeicao.nome) e fiquei com felicidade \(refeicao.felicidade)")
         
-//        if let nomeDaRefeicao = nomeTextField?.text, let felicidadeDaRefeicao = felicidadeTextField?.text {
-//
-//            let nome = nomeDaRefeicao
-//            if let felicidade = Int(felicidadeDaRefeicao) {
-//                let refeicao = Refeicao(nome: nome, felicidade: felicidade)
-//
-//                print("Comi \(refeicao.nome) e fiquei com felicidade \(refeicao.felicidade)")
-//            } else {
-//                print("Valores inválidos")
-//            }
-//        }
+        tableViewController?.add(refeicao)
+        
+        navigationController?.popViewController(animated: true)
     }
 }
 

@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Adicionar"/>
                                 <connections>
-                                    <action selector="adicionar" destination="BYZ-38-t0r" eventType="touchUpInside" id="TgV-sz-5Ig"/>
+                                    <action selector="adicionar" destination="BYZ-38-t0r" eventType="touchUpInside" id="rq6-tr-jJu"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Nome:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5Y-FN-bZ9">
@@ -56,8 +56,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="COO-V2-IWx"/>
                     <connections>
-                        <outlet property="felicidadeTextField" destination="mZ0-h1-pVe" id="e5V-MJ-8C1"/>
-                        <outlet property="nomeTextField" destination="m01-xy-h7a" id="d6u-aX-3Jz"/>
+                        <outlet property="felicidadeTextField" destination="mZ0-h1-pVe" id="Y9t-du-jGr"/>
+                        <outlet property="nomeTextField" destination="m01-xy-h7a" id="YuE-8W-xwK"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -106,7 +106,7 @@
                     <navigationItem key="navigationItem" id="ZgS-au-Z4w">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="AAd-zp-Tm2">
                             <connections>
-                                <segue destination="BYZ-38-t0r" kind="show" id="fL6-Yj-rNU"/>
+                                <segue destination="BYZ-38-t0r" kind="show" id="5Gu-pq-kA9"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
